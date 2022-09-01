@@ -1,0 +1,9 @@
+{
+    "sensors_amount": 784,
+    "hidden_layer_amount": 2,
+    "neuron_amount_in_hidden_layers": [
+        32,
+        32
+    ],
+    "result_neurons_amount": 10
+}

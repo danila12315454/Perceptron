@@ -11,7 +11,7 @@ learn_inputs = inputs[:60000]
 test_inputs = inputs[60000:]
 print("Inputs ready")
 
-network = NeuralNetwork(learn_speed=0.8, sensors_amount=784, hidden_layer_amount=2, neuron_amount_in_hidden_layers=[20] * 2, result_neurons_amount=10)
+network = NeuralNetwork(learn_speed=0.8, sensors_amount=784, hidden_layer_amount=2, neuron_amount_in_hidden_layers=[32] * 2, result_neurons_amount=10)
 network.import_weights("nums_recognition_MNIST3")
 r_ans = 0
 print("Network ready")

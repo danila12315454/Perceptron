@@ -2,6 +2,7 @@ import numpy as np
 import random
 import math
 import json
+from numba import njit
 
 
 def sigmoid(value):
